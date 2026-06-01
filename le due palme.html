@@ -1,0 +1,345 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.4">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="it"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1">&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1">&lt;title&gt;Area Sosta Le Due Palme | Peschici&lt;/title&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;style&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">*{</p>
+<p class="p1">margin:0;</p>
+<p class="p1">padding:0;</p>
+<p class="p1">box-sizing:border-box;</p>
+<p class="p1">font-family:'Poppins',sans-serif;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">html{</p>
+<p class="p1">scroll-behavior:smooth;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">body{</p>
+<p class="p1">background:#fafafa;</p>
+<p class="p1">color:#222;</p>
+<p class="p1">line-height:1.7;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">header{</p>
+<p class="p1">height:100vh;</p>
+<p class="p1">background:</p>
+<p class="p1">linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),</p>
+<p class="p1">url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');</p>
+<p class="p1">background-size:cover;</p>
+<p class="p1">background-position:center;</p>
+<p class="p1">display:flex;</p>
+<p class="p1">align-items:center;</p>
+<p class="p1">justify-content:center;</p>
+<p class="p1">text-align:center;</p>
+<p class="p1">color:white;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.hero{</p>
+<p class="p1">max-width:900px;</p>
+<p class="p1">padding:20px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.hero h1{</p>
+<p class="p1">font-size:4rem;</p>
+<p class="p1">margin-bottom:20px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.hero p{</p>
+<p class="p1">font-size:1.2rem;</p>
+<p class="p1">margin-bottom:30px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.btn{</p>
+<p class="p1">display:inline-block;</p>
+<p class="p1">padding:15px 35px;</p>
+<p class="p1">background:#0ea5a8;</p>
+<p class="p1">color:white;</p>
+<p class="p1">text-decoration:none;</p>
+<p class="p1">border-radius:50px;</p>
+<p class="p1">font-weight:600;</p>
+<p class="p1">transition:.3s;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.btn:hover{</p>
+<p class="p1">background:#0891b2;</p>
+<p class="p1">transform:translateY(-2px);</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">nav{</p>
+<p class="p1">position:fixed;</p>
+<p class="p1">top:0;</p>
+<p class="p1">width:100%;</p>
+<p class="p1">padding:20px 8%;</p>
+<p class="p1">background:rgba(255,255,255,.95);</p>
+<p class="p1">backdrop-filter:blur(10px);</p>
+<p class="p1">display:flex;</p>
+<p class="p1">justify-content:space-between;</p>
+<p class="p1">align-items:center;</p>
+<p class="p1">z-index:1000;</p>
+<p class="p1">box-shadow:0 2px 15px rgba(0,0,0,.08);</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.logo{</p>
+<p class="p1">font-size:1.4rem;</p>
+<p class="p1">font-weight:700;</p>
+<p class="p1">color:#0f766e;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">nav ul{</p>
+<p class="p1">display:flex;</p>
+<p class="p1">gap:25px;</p>
+<p class="p1">list-style:none;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">nav a{</p>
+<p class="p1">text-decoration:none;</p>
+<p class="p1">color:#333;</p>
+<p class="p1">font-weight:500;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">section{</p>
+<p class="p1">padding:100px 8%;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.section-title{</p>
+<p class="p1">text-align:center;</p>
+<p class="p1">margin-bottom:60px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.section-title h2{</p>
+<p class="p1">font-size:2.5rem;</p>
+<p class="p1">color:#0f766e;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.about{</p>
+<p class="p1">display:grid;</p>
+<p class="p1">grid-template-columns:1fr 1fr;</p>
+<p class="p1">gap:50px;</p>
+<p class="p1">align-items:center;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.about img{</p>
+<p class="p1">width:100%;</p>
+<p class="p1">border-radius:20px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.services{</p>
+<p class="p1">background:white;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.cards{</p>
+<p class="p1">display:grid;</p>
+<p class="p1">grid-template-columns:repeat(auto-fit,minmax(250px,1fr));</p>
+<p class="p1">gap:25px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.card{</p>
+<p class="p1">background:#fff;</p>
+<p class="p1">padding:30px;</p>
+<p class="p1">border-radius:18px;</p>
+<p class="p1">box-shadow:0 10px 30px rgba(0,0,0,.08);</p>
+<p class="p1">transition:.3s;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.card:hover{</p>
+<p class="p1">transform:translateY(-8px);</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.card h3{</p>
+<p class="p1">margin-bottom:15px;</p>
+<p class="p1">color:#0f766e;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.gallery{</p>
+<p class="p1">display:grid;</p>
+<p class="p1">grid-template-columns:repeat(auto-fit,minmax(300px,1fr));</p>
+<p class="p1">gap:20px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.gallery img{</p>
+<p class="p1">width:100%;</p>
+<p class="p1">height:280px;</p>
+<p class="p1">object-fit:cover;</p>
+<p class="p1">border-radius:15px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.contact{</p>
+<p class="p1">background:#0f172a;</p>
+<p class="p1">color:white;</p>
+<p class="p1">text-align:center;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.contact h2{</p>
+<p class="p1">margin-bottom:20px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.contact p{</p>
+<p class="p1">margin:10px 0;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">footer{</p>
+<p class="p1">background:#020617;</p>
+<p class="p1">color:#94a3b8;</p>
+<p class="p1">text-align:center;</p>
+<p class="p1">padding:20px;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">@media(max-width:768px){</p>
+<p class="p2"><br></p>
+<p class="p1">.hero h1{</p>
+<p class="p1">font-size:2.7rem;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">.about{</p>
+<p class="p1">grid-template-columns:1fr;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">nav ul{</p>
+<p class="p1">display:none;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;nav&gt;</p>
+<p class="p1">&lt;div class="logo"&gt;Le Due Palme&lt;/div&gt;</p>
+<p class="p1">&lt;ul&gt;</p>
+<p class="p1">&lt;li&gt;&lt;a href="#chi-siamo"&gt;Chi Siamo&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1">&lt;li&gt;&lt;a href="#servizi"&gt;Servizi&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1">&lt;li&gt;&lt;a href="#galleria"&gt;Galleria&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1">&lt;li&gt;&lt;a href="#contatti"&gt;Contatti&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1">&lt;/ul&gt;</p>
+<p class="p1">&lt;/nav&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;header&gt;</p>
+<p class="p1">&lt;div class="hero"&gt;</p>
+<p class="p1">&lt;h1&gt;Area Sosta Le Due Palme&lt;/h1&gt;</p>
+<p class="p1">&lt;p&gt;La tua sosta camper a pochi passi dal mare di Peschici, nel cuore del Gargano.&lt;/p&gt;</p>
+<p class="p1">&lt;a href="#contatti" class="btn"&gt;Prenota Ora&lt;/a&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p1">&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="chi-siamo"&gt;</p>
+<p class="p1">&lt;div class="section-title"&gt;</p>
+<p class="p1">&lt;h2&gt;Benvenuti nel Gargano&lt;/h2&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="about"&gt;</p>
+<p class="p1">&lt;div&gt;</p>
+<p class="p1">&lt;h3&gt;Relax, Mare e Ospitalità&lt;/h3&gt;</p>
+<p class="p1">&lt;p&gt;</p>
+<p class="p1">Situata a pochi minuti dalla spiaggia e dal centro storico di Peschici,</p>
+<p class="p1">l'Area Sosta Le Due Palme offre un ambiente tranquillo e accogliente per</p>
+<p class="p1">camperisti che desiderano vivere il Gargano in totale libertà.</p>
+<p class="p1">&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;</p>
+<p class="p1">Ampie piazzole, servizi essenziali e un'atmosfera familiare rendono ogni</p>
+<p class="p1">soggiorno piacevole e rilassante.</p>
+<p class="p1">&lt;/p&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21" alt=""&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="servizi" class="services"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="section-title"&gt;</p>
+<p class="p1">&lt;h2&gt;I Nostri Servizi&lt;/h2&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="cards"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="card"&gt;</p>
+<p class="p1">&lt;h3&gt;⚡ Allaccio Elettrico&lt;/h3&gt;</p>
+<p class="p1">&lt;p&gt;Colonnine elettriche disponibili per le piazzole camper.&lt;/p&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="card"&gt;</p>
+<p class="p1">&lt;h3&gt;🚐 Piazzole Camper&lt;/h3&gt;</p>
+<p class="p1">&lt;p&gt;Ampi spazi pianeggianti immersi nella tranquillità.&lt;/p&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="card"&gt;</p>
+<p class="p1">&lt;h3&gt;💧 Carico &amp; Scarico&lt;/h3&gt;</p>
+<p class="p1">&lt;p&gt;Servizio comodo per il rifornimento e lo scarico delle acque.&lt;/p&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="card"&gt;</p>
+<p class="p1">&lt;h3&gt;🏖 Mare Vicino&lt;/h3&gt;</p>
+<p class="p1">&lt;p&gt;La spiaggia è raggiungibile in pochi minuti a piedi.&lt;/p&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="card"&gt;</p>
+<p class="p1">&lt;h3&gt;🐾 Pet Friendly&lt;/h3&gt;</p>
+<p class="p1">&lt;p&gt;I vostri amici a quattro zampe sono i benvenuti.&lt;/p&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="card"&gt;</p>
+<p class="p1">&lt;h3&gt;🌅 Peschici Centro&lt;/h3&gt;</p>
+<p class="p1">&lt;p&gt;Centro storico, ristoranti e panorami raggiungibili a piedi.&lt;/p&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="galleria"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="section-title"&gt;</p>
+<p class="p1">&lt;h2&gt;Scopri Le Due Palme&lt;/h2&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="gallery"&gt;</p>
+<p class="p1">&lt;img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e"&gt;</p>
+<p class="p1">&lt;img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb"&gt;</p>
+<p class="p1">&lt;img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e"&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="contatti" class="contact"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;h2&gt;Contatti&lt;/h2&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;📍 Località Vignola - Peschici (FG)&lt;/p&gt;</p>
+<p class="p1">&lt;p&gt;📱 +39 347 153 0402&lt;/p&gt;</p>
+<p class="p1">&lt;p&gt;✉️ info@ledupalme.it&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;br&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;a href="#" class="btn"&gt;Richiedi Disponibilità&lt;/a&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;footer&gt;</p>
+<p class="p1">© 2026 Area Sosta Le Due Palme - Peschici | Tutti i diritti riservati</p>
+<p class="p1">&lt;/footer&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
